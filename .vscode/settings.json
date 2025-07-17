@@ -1,0 +1,13 @@
+{
+    "dart.flutterSdkPath": ".fvm/flutter_sdk",
+    "search.exclude": {
+        "**/.fvm": true
+    },
+    "files.watcherExclude": {
+        "**/.fvm": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "dart.previewFlutterUiGuides": true,
+    "dart.previewFlutterUiGuidesCustomTracking": true,
+}
