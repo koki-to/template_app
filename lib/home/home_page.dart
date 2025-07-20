@@ -1,27 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:template_app/template1/template1_page.dart';
-import 'package:template_app/template10/lib/app.dart';
 import 'package:template_app/template11/lib/features/todo/presentation/pages/todo_list_page.dart';
-import 'package:template_app/template2/template2_page.dart';
-import 'package:template_app/template3/template3_page.dart';
-import 'package:template_app/template4/template4_page.dart';
-import 'package:template_app/template5/template5_page.dart';
-import 'package:template_app/template6/template6_page.dart';
-import 'package:template_app/template7/template7_page.dart';
-import 'package:template_app/template8/template8_home_page.dart';
-import 'package:template_app/template9/template9_home_page.dart';
 
 enum TemplateItem {
-  template1('Hooks useState', Template1Page()),
-  template2('Hooks TextController', Template2Page()),
-  template3('Hooks toggle checkbox', Template3Page()),
-  template4('Hooks Animation1', Template4Page()),
-  template5('Hooks Animatio2n', Template5Page()),
-  template6('Visibility オプション設定の表示/非表示トグル', Template6Page()),
-  template7('Visibility アニメーション', Template7Page()),
-  template8('bottom navigation bar', Template8HomePage()),
-  template9('tabber', Template9HomePage()),
-  template10('todoApp', TodoApp()),
   template11('todoApp', TodoListPage());
 
   const TemplateItem(this.pageName, this.pageWidget);
