@@ -15,17 +15,15 @@ dependencies:
   hooks_riverpod: ^2.6.1
   json_annotation: ^4.9.0
   riverpod: ^2.6.1
-  shared_preferences: ^2.5.3
   flutter_riverpod: ^2.6.1
-  uuid: ^4.5.1
-  sqflite: ^2.4.2
-  path_provider: ^2.1.5
   dio: ^5.8.0+1
   retrofit: ^4.6.0
   pretty_dio_logger: ^1.4.0
   connectivity_plus: ^6.1.4
   flutter_secure_storage: ^4.2.1
   crypto: ^3.0.6
+  mockito: ^5.4.6
+  logger: ^2.6.0
 
 dev_dependencies:
   flutter_test:
